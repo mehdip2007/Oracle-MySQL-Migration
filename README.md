@@ -26,6 +26,7 @@ To create these tables in MySQL, you need to remove the double quotes and change
 
 
 **Data**
+
 SQL*Plus syntax *(REM and SET)* that you need to remove. MySQL doesn’t have a *TO_DATE* function, but accepts *DATETIME* values directly as quoted strings in ISO standard format
 
-so you can use the attached script shell scripts to make your life easy.
+So you can use the attached script shell scripts to make your life easy.
