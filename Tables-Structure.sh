@@ -1,8 +1,6 @@
 #!/bin/bash
 #!/usr/bin/awk -f
 
-
-####### Below is my configuration for ORACLE make sure to chage it according to yout environment.
 export ORACLE_HOME=/usr/lib/oracle/19.8/client64
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
 export PATH=/home/mehdi/Downloads/jdk1.8.0_261/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -71,7 +69,7 @@ for each in "${StringArray[@]}"; do
 
 
 	 ##################################################################################
-	 ######		 	awk is not running on my shell script	  	    #######
+	 ######		 			awk is not running on my shell script				#######
 	 ##################################################################################
 	 # sed -i '/PRIMARY KEY /q' $each".sql"
 	 # gawk -f /home/mehdi/migration/oracle-tables/1/program.awk $each".sql"
