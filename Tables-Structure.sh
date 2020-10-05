@@ -59,7 +59,7 @@ for each in "${StringArray[@]}"; do
 	 sed -i  's/255 CHAR/255/' $each".sql"
 	 sed -i  's/,0)/)/g' $each".sql"
 	 sed -i  's/NOT NULL ENABLE/NOT NULL AUTO_INCREMENT/' $each".sql"
-	 sed -i  's/NUMBER/NUMERIC/' $each".sql"
+	 sed -i  's/NUMBER/NUMERIC/g' $each".sql"
 	 sed -i  's/ID NUMERIC/ID INT/' $each".sql"
 	 sed -i  "s/FLOAT[(][^)]*[)]/FLOAT/g" $each".sql"
 	 sed -i  's/CLOB/LONGTEXT/' $each".sql"
