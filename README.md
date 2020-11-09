@@ -1,5 +1,5 @@
 # Oracle-MySQL-Migration
-Script for migrating from Oracle Database to MySQL database
+Script for migrating from Oracle Database to MySQL database you can use either Python or Shell
 
 
 <p>With the loss of the Oracle Standard Edition One license, and the free Oracle Express Edition database stuck at the old 11g Release 2 from 2014, many smaller projects are considering whether MySQL might be an alternative.</p>
