@@ -30,3 +30,9 @@ To create these tables in MySQL, you need to remove the double quotes and change
 SQL*Plus syntax *(REM and SET)* that you need to remove. MySQL doesn’t have a *TO_DATE* function, but accepts *DATETIME* values directly as quoted strings in ISO standard format
 
 So you can use the attached  shell scripts to make your life easy.
+
+**Note:** 
+if your tables are huge in rows(more than 20 million rows) i suggest using the pyspark file for fast and direct connection bye submiting it to spar as below.
+```$SPARK_HOME/bin/spark-submit  spark-import-oracle-mysql.py ```
+
+
